@@ -1,0 +1,31 @@
+{
+  "name" : "glue-schema-change",
+  "description" : "",
+  "role" : "arn:aws:iam::611812404044:role/awsglue-irfan",
+  "executionProperty" : {
+    "maxConcurrentRuns" : 1
+  },
+  "command" : {
+    "name" : "pythonshell",
+    "scriptLocation" : "s3://aws-glue-assets-611812404044-us-east-1/scripts/glue-schema-change.py",
+    "pythonVersion" : "3.9"
+  },
+  "defaultArguments" : {
+    "--enable-job-insights" : "false",
+    "--job-language" : "python",
+    "--TempDir" : "s3://aws-glue-assets-611812404044-us-east-1/temporary/",
+    "--enable-glue-datacatalog" : "true"
+  },
+  "maxRetries" : 0,
+  "allocatedCapacity" : 0,
+  "timeout" : 2880,
+  "maxCapacity" : 0.0625,
+  "glueVersion" : "3.0",
+  "executionClass" : "STANDARD",
+  "sourceControlDetails" : {
+    "provider" : "GITHUB",
+    "repository" : "Identify--source--schema--changes-Glue",
+    "branch" : "main",
+    "folder" : "glue-schema-change"
+  }
+}
