@@ -1,0 +1,11 @@
+ordertime,region,rep,item,units,unitcost
+2022-01-06,US-West,Jones,Pencil,95,1.99
+2022-01-06,US-Central,Kivell,Binder,50,19.99
+2022-01-07,US-Central,Jardine,Pencil,36,4.99
+2022-01-07,US-Central,Gill,Pen,27,19.99
+2022-01-08,US-East,Sorvino,Pencil,56,2.99
+2022-01-08,US-West,Jones,Binder,60,4.99
+2022-01-09,US-Central,Andrews,Pencil,75,1.99
+2022-01-10,US-Central,Jardine,Pencil,90,4.99
+2022-01-11,US-East,Thompson,Pencil,32,1.99
+2022-01-20,US-West,Jones,Binder,60,8.99
